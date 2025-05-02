@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>securecorder</title>
+    <meta name="description" content="A simple browser-based screen recoder with privacy in mind." />
+    <link rel="stylesheet" href="./simple.min.css">
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./favicon.ico">
+    <script type="text/javascript" src="./securecorder.js" defer></script>
+</head>
+<body>
+    <h1>securecorder</h1>
+    <div>
+        securecorder is a lightweight, browser-based, and cross-platform screen recorder designed with privacy in mind. 
+        It allows you to effortlessly record your screen directly from your browser. 
+    </div>
+    <h2>Control Center</h2>
+    <div id="status-box">
+        <span style="text-align: left;">Status:</span>
+        <span id="status" style="text-align: center; max-width: 100%; padding: 5pt;"></span>
+    </div>
+    <div id="error-box" style="display: none;">
+        <div style="width: 100%; padding: 20pt;"></div>
+        <span>Error:</span>
+        <span id="error"></span>
+    </div>
+    <div style="width: 100%; padding: 20pt;"></div>
+    <div id="buttons">
+        <form id="control">
+            <button id="rec_start" style="display: none; width: 100%; background-color: green;">START</button>
+            <button id="rec_resume" style="display: none; width: 100%; background-color: green;">RESUME</button>
+            <button id="rec_pause" style="display: none; width: 100%; background-color: yellow; color: black;">PAUSE</button>
+            <button id="rec_stop" style="display: none; width: 100%; background-color: red;">STOP</button>
+            <fieldset id="rec_mime_options" style="display: none; width: 100%">
+                <legend>Specify the video format:</legend>
+            </fieldset>
+        </form>
+    </div>
+
+    <h2>How does it work?</h2>
+    <div>
+        Take a look <a href="https://github.com/simbahax/securecorder/blob/main/README.md">here</a>.
+    </div>
+</body>
+<footer>
+    Developed by <a href="https://github.com/simbahax">simbahax</a>, styled with <a href="https://simplecss.org">Simple.css</a>, 2025.
+    <br />
+    Licensed under the MIT license.
+</footer>
