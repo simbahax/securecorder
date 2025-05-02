@@ -2,7 +2,7 @@
 securecorder is a lightweight, browser-based, and cross-platform screen recorder designed with privacy in mind. It allows you to effortlessly record your screen directly from your browser.
 
 ## Getting started
-You can use the demo [here](link) or clone the repository and open securerecorder.html in your browser:
+You can use the demo [here](link) or clone the repository and open securecorder.html in your browser:
 ```
 git clone https://github.com/simbahax/securecorder
 # change chromium acc. to your needs (or just open a browser and copy the path into the address bar)
